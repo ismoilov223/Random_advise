@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random advise</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .btn:hover{
+        box-shadow: 0px 0px 30px #53FFAA;
+      }
+      .btn{
+        transition: all 0.5s;
+      }
+    </style>
+  </head>
+  <body class="h-full bg-[#202733]">
+    <div class="w-full cont h-full flex items-center justify-center px-[16px]">
+      <div class="box p-[48px] rounded-xl shadow bg-[#313A48] w-[343px] md:w-[540px] flex items-center flex-col ">
+        <div class="texts-box flex flex-col gap-6 text-center">
+          <p class="font-bold text-[#53FFAA]" >ADVICE <span id="advise-id">#117</span></p>
+          <h3 class="text-[#CEE3E9] font-bold" id="advise-text">
+            “It is easy to sit up and take notice, what's difficult is getting
+            up and taking action.”
+          </h3>
+          <img src="./images/advise-pauze-icon.svg" alt="">
+        </div>
+        <button class="btn w-[64px] h-[64px] rounded-full bg-[#53FFAA] flex items-center justify-center -mb-[80px] mt-[40px] " id="advise-btn">
+            <img src="./images/btn-icon.svg" alt="">
+        </button>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
